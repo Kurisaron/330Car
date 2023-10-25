@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: edit_02.ma
-//Last modified: Wed, Oct 25, 2023 12:26:25 PM
+//Name: edit_03.ma
+//Last modified: Wed, Oct 25, 2023 12:26:33 PM
 //Codeset: 1252
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "C130EDAF-4098-00A6-FF18-6C8EE2DB67D2";
+fileInfo "UUID" "73977D13-4475-013D-E074-A3A864500623";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "09C30278-44FD-9514-B175-EE92BF2DE7FB";
@@ -4360,4 +4360,4 @@ connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
-// End of edit_02.ma
+// End of edit_03.ma
